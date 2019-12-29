@@ -8,30 +8,51 @@
 
     <title>Solo Female Traveller</title>
 
-    <!-- ADD BOOTSTRAP CORE HERE!!!! -->
     <link rel="stylesheet"
     href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous"/>
+    <link href="styles.css" rel="stylesheet">
 
-
-    <!-- Custom styles for this template -->
-    <head>
-    <link href="css/styles.css" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
   </head>
 
-  <body>
-<div class='container'>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#">Navigation</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+<body>
+    <nav class="navbar navbar-expand-lg ">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <!-- Button trigger modal -->
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-    Contact us
-  </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
 
-  <!-- Modal -->
+
   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -53,43 +74,14 @@
   </div>
 </div>
 
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a>
-            class="nav-list"
-            href="http://curious-london.co.uk/bucketlist/"
-            target="_blank"
-            <London></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Another Link</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
     <main role="main" class="container">
 
       <div class="starter-template">
         <h1>Solo Female Traveller</h1>
+
         <p class="lead">A guide for solo female travellers written by solo female travellers<br> Guides for backpacking locations across the world </p>
       </div>
 
-      <!-- columns -->
-      <div class="row">
-        <div class="col-sm">
-          <!-- add an image here -->
-          Blog
-        </div>
-        <div class="col-sm">
-          <!-- add an image here -->
-          Reviews
-        </div>
-      </div>
       <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -101,6 +93,12 @@
           <div class="carousel-item">
             <img class="d-block w-100" src="C:\Users\DuffieldM\OneDrive - Vodafone Group\Documents\Coding Course\beginners-week-five\Angkor.webp" alt="Third slide">
           </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="C:\Users\DuffieldM\OneDrive - Vodafone Group\Documents\Coding Course\SFT\Waterfall.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="C:\Users\DuffieldM\OneDrive - Vodafone Group\Documents\Coding Course\SFT\Elephant.jpg" alt="Second slide">
+          </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -111,15 +109,50 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-      <!-- Add another row here -->
-    </main><!-- /.container -->
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
-    <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
+<br>
+<div class="row row-cols-1 row-cols-md-2">
+  <div class="col mb-4">
+      <div class="card">
+        <img src="MS.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mission Statement</h5>
+          <p class="card-text">We want to help create a world where Solo Female Travellers can feel safe while they explore the world</p>
+        </div>
+      </div>
+</div>
+
+<div class="col mb-4">
+  <div class="card">
+  <img src="AU.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">About Us</h5>
+    <p class="card-text">We founded SFT after our own experiences of travelling left us wanting to improve things for travellers like us</p>
+  </div>
+</div>
+</div>
+
+<div class="col mb-4">
+  <div class="card">
+  <img src="T.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Testimonials</h5>
+      <p class="card-text">Don't just take it from us! Hear it from other SFTs who have used the site to improve their travels</p>
+    </div>
+  </div>
+</div>
+
+<div class="col mb-4">
+<div class="card">
+  <img src="B.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Blog</h5>
+    <p class="card-text">Want some inspiration for your next trip? Read about thr SFT founders' latest adventures!</p>
+  </div>
+</div>
+</div>
+</div>
+
+  </main>
   </body>
 </html>

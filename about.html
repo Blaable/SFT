@@ -11,48 +11,51 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   </head>
+
+  <body>
   <nav class="navbar navbar-expand-lg ">
-    <a class="navbar-brand" href="#">Home</a>
+    <a class="nav-link" href="#">Home</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Tips <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#">Tips<span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link" href="#">Safety</a>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown active">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Reviews
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Read reviews</a>
+            <a class="dropdown-item" href="#">Write a review</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Something else here</a>
           </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Link Up</a>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Link up</a>
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
       </form>
     </div>
   </nav>
-  <body>
-<h1> About Us </h1>
+    <div class="starter-template">
+        <h1 style="font-size:70px"> About Us </h1>
+    </div>
     <div class="card mb-3" style="max-width: 1500px;">
       <div class="row no-gutters">
       <div class="col-md-4">
   <img src="..." class="card-img" alt="...">
         </div>
-          <div class="col-md-8">
+          <div class="col-md-auto">
               <div class="card-body">
                 <h5 class="card-title">Meet the founders: Beth and Maddie</h5>
                 <p class="card-text">We created SFT because we love to travel but felt as though it was hard to find accurate information about how safe women feel going solo in different parts of the world.</p>
@@ -63,7 +66,6 @@
         </div>
         <div class="card-columns">
           <div class="card">
-            <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">What is the most Instagram worthy spot you've ever been?</h5>
               <p class="card-text">Beth: Pigeon Point, Tobago. It is on the front of guide books for a reason! </p>
@@ -78,14 +80,13 @@
               </div>
           </div>
           <div class="card">
-            <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">What has been the best experience you've ever had?</h5>
               <p class="card-text">Beth: It's a toss up between safari in South Africa's Kruger National Park and snorkelling with turtles off the coast of Gili T!</p>
               <p class="card-text">Maddie: Night diving in Koh Samui, earning my advanced PADI qualification.</p>
             </div>
           </div>
-          <div class="card bg-primary text-white text-center p-3">
+          <div class="card text-white text-center p-3" style='background-color: #7eeadf;'>
             <blockquote class="blockquote mb-0">
               <p>Quick fire questions!</p>
               <footer class="blockquote-footer text-white">
@@ -117,6 +118,21 @@
             </div>
           </div>
         </div>
+          <div class="footer">
+            <br>
+              <div class="row">
+                <div class="col">
+                  <p> CONTACT INFO </p>
+                </div>
+                <div class="col">
+                  <p> SOMETHING ELSE </p>
+                </div>
+          </div>
 
   </body>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </html>
